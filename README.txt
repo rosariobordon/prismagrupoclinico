@@ -1,19 +1,17 @@
-PRISMA GRUPO CLÍNICO — PRIMERA VERSIÓN REAL DE LA WEB
+PRISMA GRUPO CLÍNICO — VERSIÓN COMPLETA V4
 
-Archivos principales:
-- index.html: página principal
-- reserva.html: selector de profesional para reserva
-- styles.css: diseño responsive
-- script.js: menú móvil
-- assets/: imágenes tomadas del material visual aportado
+Subir todos estos archivos a la raíz del repositorio GitHub:
+- index.html
+- reserva.html
+- styles.css
+- script.js
+- pared-prisma.jpg
+- recepcion-prisma.jpg
 
-Antes de publicar definitivamente hay que completar:
-1. Enlaces reales a las agendas individuales de cada profesional.
-2. Teléfono, dirección y correo general definitivos.
-3. Perfiles del resto del equipo.
-4. Aviso legal, política de privacidad, política de cookies y consentimiento.
-5. Revisar el texto exacto de las credenciales profesionales.
-
-Arquitectura de reservas:
-PRISMA -> Elegir profesional -> Agenda externa individual.
-No existe una caja o agenda común de PRISMA para los colaboradores.
+La web está preparada para GitHub Pages.
+Pendiente antes de publicación definitiva:
+- enlaces reales de agendas
+- datos definitivos de contacto
+- perfiles restantes del equipo
+- textos legales y gestión de cookies
+- revisión final de credenciales profesionales
