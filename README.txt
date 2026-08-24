@@ -1,14 +1,14 @@
-PRISMA GRUPO CLÍNICO — VERSIÓN 5
+PRISMA GRUPO CLÍNICO — V6
 
-Versión rediseñada con:
-- Discurso centrado en profesionales especializados y necesidades del paciente.
-- Símbolo de marca recuperado desde el material corporativo aportado.
-- Más presencia visual del espacio PRISMA, sin imágenes genéricas de banco.
-- Sección específica de reserva y pago.
-- Arquitectura de reserva individual por profesional.
+Versión con fotografías profesionales de Rosario Bordón Guerra y Dr. Miguel Núñez Villalba.
+Equipo:
+- Rosario Bordón Guerra — Psicología Clínica / Neuropsicología.
+- Dr. Miguel Núñez Villalba — Psiquiatría.
+- Marina Martínez Grimal — ficha provisional sin fotografía hasta completar datos.
 
-Pendiente antes de publicación definitiva:
-- Enlaces reales de agenda de cada profesional.
-- Datos definitivos de contacto.
-- Perfiles y fotografías reales del equipo cuando estén disponibles.
-- Textos legales, privacidad, cookies y consentimiento.
+Reservas:
+- Miguel: enlace a Doctoralia.
+- Rosario: perfil Doctoralia visible; agenda definitiva de PRISMA pendiente de conexión.
+- Marina: pendiente.
+
+El espacio físico queda en un bloque secundario; la prioridad visual y discursiva son los profesionales, su especialización y la atención clínica individualizada.
