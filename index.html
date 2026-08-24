@@ -3,21 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="PRISMA Grupo Clínico. Evaluación, diagnóstico y tratamiento en Las Palmas de Gran Canaria.">
+  <meta name="description" content="PRISMA Grupo Clínico. Profesionales especializados en evaluación, diagnóstico y tratamiento en Las Palmas de Gran Canaria.">
   <title>PRISMA Grupo Clínico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header" id="inicio">
     <a class="brand" href="#inicio" aria-label="PRISMA Grupo Clínico, inicio">
-      <span class="brand-word"><span>P</span><span class="brand-r">R</span><span>I</span><span>S</span><span>M</span><span>A</span></span>
-      <span class="brand-sub">GRUPO CLÍNICO</span>
+      <img class="brand-symbol" src="simbolo-prisma.jpg" alt="">
+      <span class="brand-lockup">
+        <span class="brand-word"><span>P</span><span class="brand-r">R</span><span>I</span><span>S</span><span>M</span><span>A</span></span>
+        <span class="brand-sub">GRUPO CLÍNICO</span>
+      </span>
     </a>
     <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
     <nav class="main-nav" aria-label="Navegación principal">
-      <a href="#servicios">Áreas clínicas</a>
+      <a href="#areas">Áreas clínicas</a>
+      <a href="#enfoque">Cómo trabajamos</a>
       <a href="#equipo">Equipo</a>
-      <a href="#prisma">PRISMA</a>
       <a href="#contacto">Contacto</a>
       <a class="btn btn-small" href="reserva.html">Reservar cita</a>
     </nav>
@@ -26,80 +32,97 @@
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <p class="hero-group">GRUPO CLÍNICO</p>
-        <h1 class="hero-brand" aria-label="PRISMA"><span>P</span><span class="hero-r">R</span><span>I</span><span>S</span><span>M</span><span>A</span></h1>
-        <span class="hero-rule" aria-hidden="true"></span>
+        <p class="eyebrow">PRISMA GRUPO CLÍNICO</p>
+        <h1>Atención clínica especializada, centrada en cada persona.</h1>
         <p class="hero-tagline">Evaluación <span>·</span> Diagnóstico <span>·</span> Tratamiento</p>
-        <p class="lead">Atención clínica orientada a comprender cada caso con rigor, establecer un diagnóstico cuando sea necesario y plantear el tratamiento más adecuado.</p>
+        <p class="lead">Profesionales especializados en distintas áreas clínicas, con una práctica rigurosa y una atención individualizada. Cada caso se valora atendiendo a las necesidades, el contexto y los objetivos de la persona.</p>
         <div class="hero-actions">
           <a class="btn" href="reserva.html">Reservar cita</a>
-          <a class="btn btn-outline" href="#servicios">Conocer áreas clínicas</a>
+          <a class="btn btn-outline" href="#areas">Conocer áreas clínicas</a>
         </div>
       </div>
-      <div class="hero-image" role="img" aria-label="Pared de entrada de PRISMA Grupo Clínico"></div>
+      <figure class="hero-visual">
+        <img src="pared-prisma.jpg" alt="Pared de entrada de PRISMA Grupo Clínico">
+      </figure>
     </section>
 
-    <section class="values-strip" aria-label="Principios de atención">
-      <div><strong>Rigor clínico</strong><span>Evaluación fundamentada</span></div>
-      <div><strong>Atención personalizada</strong><span>Cada caso es diferente</span></div>
-      <div><strong>Coordinación clínica</strong><span>Cuando el caso lo requiere</span></div>
-      <div><strong>Confidencialidad</strong><span>Privacidad y respeto</span></div>
+    <section class="trust-line" aria-label="Principios de atención">
+      <span>Profesionales especializados</span>
+      <i aria-hidden="true"></i>
+      <span>Valoración individual</span>
+      <i aria-hidden="true"></i>
+      <span>Rigor clínico</span>
+      <i aria-hidden="true"></i>
+      <span>Coordinación cuando aporta valor</span>
     </section>
 
-    <section class="section services" id="servicios">
-      <div class="services-heading">
-        <div>
-          <p class="eyebrow">ÁREAS CLÍNICAS</p>
-          <h2>Atención especializada</h2>
-        </div>
-        <p>Evaluación y tratamiento desde distintas áreas clínicas, con indicación individualizada según las necesidades de cada persona.</p>
+    <section class="section areas" id="areas">
+      <div class="section-intro">
+        <p class="eyebrow">ÁREAS CLÍNICAS</p>
+        <h2>La atención adecuada empieza por el profesional adecuado.</h2>
+        <p>Cada área está atendida por profesionales con formación y experiencia específica. La indicación se plantea de forma individual, evitando enfoques genéricos para problemas diferentes.</p>
       </div>
 
-      <div class="services-grid">
-        <article class="service-card">
-          <span class="service-kicker">PSICOLOGÍA</span>
+      <div class="area-grid">
+        <article class="area-card">
+          <span class="area-label">01</span>
           <h3>Psicología Clínica</h3>
-          <p>Evaluación, diagnóstico e intervención psicológica especializada.</p>
-          <a href="#equipo">Conocer profesionales</a>
+          <p>Evaluación, diagnóstico e intervención psicológica especializada, adaptada a la etapa vital y a las necesidades de cada caso.</p>
+          <a href="#equipo">Ver profesionales</a>
         </article>
-        <article class="service-card">
-          <span class="service-kicker">MEDICINA</span>
+        <article class="area-card">
+          <span class="area-label">02</span>
           <h3>Psiquiatría</h3>
-          <p>Valoración, diagnóstico y tratamiento psiquiátrico individualizado.</p>
-          <a href="#equipo">Conocer profesionales</a>
+          <p>Valoración médica especializada, diagnóstico y tratamiento psiquiátrico con seguimiento individualizado.</p>
+          <a href="#equipo">Ver profesionales</a>
         </article>
-        <article class="service-card">
-          <span class="service-kicker">EVALUACIÓN</span>
+        <article class="area-card">
+          <span class="area-label">03</span>
           <h3>Neuropsicología</h3>
-          <p>Evaluación neuropsicológica y abordaje de alteraciones cognitivas y conductuales.</p>
-          <a href="#equipo">Conocer profesionales</a>
+          <p>Evaluación del funcionamiento cognitivo y conductual, formulación clínica y orientación del abordaje más adecuado.</p>
+          <a href="#equipo">Ver profesionales</a>
         </article>
-        <article class="service-card">
-          <span class="service-kicker">ÁMBITO JURÍDICO</span>
+        <article class="area-card">
+          <span class="area-label">04</span>
           <h3>Peritaje Psiquiátrico</h3>
-          <p>Valoración pericial psiquiátrica e informes especializados para el ámbito jurídico.</p>
-          <a href="#equipo">Conocer profesionales</a>
+          <p>Valoración pericial e informes especializados para el ámbito jurídico, con criterios clínicos y técnicos rigurosos.</p>
+          <a href="#equipo">Ver profesionales</a>
         </article>
       </div>
     </section>
 
-    <section class="prisma-split" id="prisma">
-      <div class="prisma-photo" role="img" aria-label="Recepción de PRISMA Grupo Clínico"></div>
-      <div class="prisma-copy">
-        <p class="eyebrow">PRISMA</p>
-        <h2>Comprender antes de intervenir</h2>
-        <p>Una buena atención clínica comienza por una valoración cuidadosa. El objetivo es entender qué está ocurriendo, qué factores intervienen y qué tipo de ayuda puede resultar realmente útil.</p>
-        <p>Cuando es necesario, la atención puede coordinar distintas áreas profesionales sin perder la individualización del caso.</p>
+    <section class="visual-story" aria-label="Espacios PRISMA">
+      <figure class="visual-large"><img src="recepcion-prisma.jpg" alt="Recepción de PRISMA Grupo Clínico"></figure>
+      <figure class="visual-small"><img src="sala-espera-prisma.jpg" alt="Zona de espera de PRISMA Grupo Clínico"></figure>
+      <div class="visual-caption">
+        <p class="eyebrow">EL ESPACIO</p>
+        <h2>Un entorno cuidado para una atención clínica rigurosa.</h2>
+        <p>El espacio se ha planteado para favorecer privacidad, calma y una experiencia asistencial alejada de una estética hospitalaria, sin perder su carácter sanitario.</p>
       </div>
     </section>
+
+    <section class="section approach" id="enfoque">
+      <div class="approach-copy">
+        <p class="eyebrow">CÓMO TRABAJAMOS</p>
+        <h2>Especialización, escucha clínica y decisiones ajustadas a cada caso.</h2>
+        <p>No todas las personas necesitan la misma evaluación ni el mismo tratamiento. El profesional valora el motivo de consulta, la historia y las circunstancias actuales para definir qué intervención puede resultar más útil.</p>
+        <p>Cuando un caso se beneficia de la participación de otra área, la coordinación se plantea de forma específica y con un objetivo clínico claro.</p>
+      </div>
+      <div class="approach-points">
+        <div><strong>01</strong><span>Valoración individual</span><p>Comprender antes de intervenir.</p></div>
+        <div><strong>02</strong><span>Profesional especializado</span><p>Atención desde el área clínica correspondiente.</p></div>
+        <div><strong>03</strong><span>Plan ajustado</span><p>Objetivos y tratamiento según necesidades reales.</p></div>
+      </div>
+    </section>
+
+    <section class="image-break"><img src="fachada-prisma.jpg" alt="Proyecto de fachada de PRISMA Grupo Clínico"></section>
 
     <section class="section team" id="equipo">
-      <div class="team-heading">
+      <div class="section-intro team-intro">
         <p class="eyebrow">EQUIPO</p>
-        <h2>Profesionales</h2>
-        <p>Consulta el perfil del profesional y accede directamente a su sistema individual de reserva.</p>
+        <h2>Profesionales con práctica especializada.</h2>
+        <p>Consulta el perfil de cada profesional para conocer su área de trabajo y acceder directamente a su agenda individual.</p>
       </div>
-
       <article class="professional-card">
         <div class="professional-mark">RB</div>
         <div class="professional-content">
@@ -109,26 +132,32 @@
           <a class="text-link" href="reserva.html#rosario">Reservar cita</a>
         </div>
       </article>
-      <p class="team-note">Los perfiles del resto del equipo se incorporarán cuando estén cerrados sus datos profesionales y enlaces de agenda.</p>
     </section>
 
-    <section class="booking-band">
-      <div>
-        <p class="eyebrow light">CITA PREVIA</p>
-        <h2>Elige el profesional con el que deseas solicitar cita</h2>
-        <p>Cada perfil te llevará a su sistema individual de reserva.</p>
+    <section class="booking-section" id="reserva">
+      <div class="booking-copy">
+        <p class="eyebrow light">RESERVA Y PAGO</p>
+        <h2>Cada profesional gestiona directamente su agenda.</h2>
+        <p>Al elegir profesional accederás a su sistema individual de reserva. El pago de la consulta se realiza directamente con el profesional correspondiente.</p>
       </div>
-      <a class="btn btn-light" href="reserva.html">Elegir profesional</a>
+      <div class="booking-steps">
+        <div><span>01</span><strong>Elige profesional</strong><p>Accede desde su perfil o desde “Reservar cita”.</p></div>
+        <div><span>02</span><strong>Reserva en su agenda</strong><p>Consulta la disponibilidad y selecciona tu cita.</p></div>
+        <div><span>03</span><strong>Realiza el pago</strong><p>Online en su agenda cuando esté habilitado, o en el centro en efectivo.</p></div>
+      </div>
+      <a class="btn btn-light booking-cta" href="reserva.html">Elegir profesional</a>
     </section>
 
     <section class="section contact" id="contacto">
-      <div class="contact-copy">
+      <div>
         <p class="eyebrow">CONTACTO</p>
         <h2>Las Palmas de Gran Canaria</h2>
-        <p>Atención con cita previa. Los datos definitivos de contacto se incorporarán antes de la publicación final.</p>
       </div>
-      <div class="contact-rule"></div>
-      <p class="privacy-note">Para proteger la privacidad, no envíes informes clínicos, diagnósticos ni documentación sanitaria a través de un contacto general de la web.</p>
+      <div class="contact-details">
+        <p>Atención con cita previa.</p>
+        <p>Los datos definitivos de teléfono, dirección y correo general se incorporarán antes de la publicación final.</p>
+        <small>Para proteger la privacidad, no envíes informes, diagnósticos ni documentación sanitaria a través del contacto general de la web.</small>
+      </div>
     </section>
   </main>
 
@@ -139,14 +168,12 @@
       <p>Evaluación · Diagnóstico · Tratamiento</p>
     </div>
     <div class="footer-links">
-      <a href="#servicios">Áreas clínicas</a>
+      <a href="#areas">Áreas clínicas</a>
+      <a href="#enfoque">Cómo trabajamos</a>
       <a href="#equipo">Equipo</a>
-      <a href="#contacto">Contacto</a>
       <a href="reserva.html">Reservar cita</a>
     </div>
-    <div class="legal-links" aria-label="Enlaces legales pendientes">
-      <span>Aviso legal</span><span>Privacidad</span><span>Cookies</span>
-    </div>
+    <div class="legal-links"><span>Aviso legal</span><span>Privacidad</span><span>Cookies</span></div>
   </footer>
   <script src="script.js"></script>
 </body>

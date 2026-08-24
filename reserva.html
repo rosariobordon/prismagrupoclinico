@@ -3,52 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Reserva de cita por profesional en PRISMA Grupo Clínico.">
-  <title>Reservar cita | PRISMA Grupo Clínico</title>
+  <title>Reservar cita · PRISMA Grupo Clínico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="booking-page">
   <header class="site-header compact">
-    <a class="brand" href="index.html">
-      <span class="brand-word"><span>P</span><span class="brand-r">R</span><span>I</span><span>S</span><span>M</span><span>A</span></span>
-      <span class="brand-sub">GRUPO CLÍNICO</span>
+    <a class="brand" href="index.html" aria-label="Volver a PRISMA Grupo Clínico">
+      <img class="brand-symbol" src="simbolo-prisma.jpg" alt="">
+      <span class="brand-lockup">
+        <span class="brand-word"><span>P</span><span class="brand-r">R</span><span>I</span><span>S</span><span>M</span><span>A</span></span>
+        <span class="brand-sub">GRUPO CLÍNICO</span>
+      </span>
     </a>
-    <a class="back-link" href="index.html">← Volver a PRISMA</a>
+    <a class="back-link" href="index.html">← Volver a la web</a>
   </header>
 
   <main class="booking-main">
-    <section class="booking-intro">
-      <p class="eyebrow">RESERVAR CITA</p>
+    <div class="booking-intro">
+      <p class="eyebrow">CITA PREVIA</p>
       <h1>Elige profesional</h1>
-      <p>Selecciona el profesional con el que deseas solicitar cita. Cada opción enlazará a su agenda individual.</p>
-    </section>
+      <p>Cada profesional gestiona de forma individual su agenda, disponibilidad y cobro. Al seleccionar un perfil accederás a su sistema propio de reserva.</p>
+    </div>
 
-    <section class="booking-grid">
+    <div class="payment-note">
+      <strong>Pago de la consulta</strong>
+      <p>El pago se realiza directamente al profesional correspondiente: online a través de su agenda cuando esa opción esté habilitada, o en el centro en efectivo.</p>
+    </div>
+
+    <div class="booking-grid">
       <article class="booking-card" id="rosario">
         <p class="professional-role">Psicología Clínica · Neuropsicología</p>
         <h2>Rosario Bordón Guerra</h2>
         <p>Psicóloga Especialista en Psicología Clínica<br>Máster en Neuropsicología Clínica</p>
-        <button class="btn" type="button" disabled aria-disabled="true">Agenda pendiente de conectar</button>
+        <button class="btn" disabled title="Enlace de agenda pendiente">Agenda pendiente</button>
+        <small>El enlace se activará cuando esté configurada la agenda individual.</small>
       </article>
       <article class="booking-card muted">
-        <p class="professional-role">Psiquiatría</p>
-        <h2>Profesional pendiente</h2>
-        <p>El perfil y el enlace de reserva se incorporarán cuando estén confirmados.</p>
+        <p class="professional-role">Próxima incorporación</p>
+        <h2>Otros profesionales</h2>
+        <p>Los perfiles y sus agendas se incorporarán a medida que queden configurados.</p>
       </article>
-      <article class="booking-card muted">
-        <p class="professional-role">Peritaje Psiquiátrico</p>
-        <h2>Profesional pendiente</h2>
-        <p>El perfil y el sistema de contacto o reserva se incorporarán cuando estén confirmados.</p>
-      </article>
-    </section>
+    </div>
   </main>
 
   <footer class="site-footer booking-footer">
-    <div class="footer-brand">
-      <span class="brand-word"><span>P</span><span class="brand-r">R</span><span>I</span><span>S</span><span>M</span><span>A</span></span>
-      <span class="brand-sub">GRUPO CLÍNICO</span>
-    </div>
-    <p>Las Palmas de Gran Canaria</p>
+    <div class="footer-brand"><span class="brand-word"><span>P</span><span class="brand-r">R</span><span>I</span><span>S</span><span>M</span><span>A</span></span><span class="brand-sub">GRUPO CLÍNICO</span></div>
+    <a class="back-link light-link" href="index.html">Volver a PRISMA</a>
   </footer>
 </body>
 </html>
